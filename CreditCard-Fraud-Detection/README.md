@@ -20,7 +20,58 @@ The dataset is extracted from the open-source website Kaggle. The dataset simula
 **Exploratory Data Analysis (EDA):** <br />
 
 <p align="center">
-<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/Histogram_of_Amount.png" width="750" height="500"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/Histogram_of_Amount.png" width="750" height="500"/>
 </p>
 
 - The higher amount misinterprets the histogram. Hence, the 0.99 quantile was used to remove the noise. The histogram shows that the data is skewed right.
+
+<p align="center">
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/box_plot_transaction_amount_fraud_flag.png" width="750" height="500"/>
+</p>
+
+- The box plot to have been used visualize the distribution of transaction amounts by fraud status. It is interesting to note that all fraudulent transactions are low-value transactions(less than 150).
+
+<p align="center">
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/scatter_plot_transaction_amount_vs_city_fraud_flag.png" width="750" height="500"/>
+</p>
+
+- The scatter plot have been used to visualize the transaction amount vs city population by fraud status. It shows a weak correlation for both fraudulent and non-fraudulent transactions.
+
+<p align="center">
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/Distribution_of_Categories_by_Fraud.png" width="750" height="500"/>
+</p>
+
+- It is interesting to note most of the fraud happened in the categories shopping_POS, shopping_net, misc_net, grocery_pos, and gas_transport
+
+<p align="center">
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/Hourly_Distribution_of_Fraudulent_Transactions.png" width="750" height="500"/>
+</p>
+
+- It is interesting to note that most fraudulent transactions happened between 10 PM and 3 AM at night.
+
+
+<p align="center">
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/Age_Distribution_of_Fraudulent_Transactions.png" width="750" height="500"/>
+</p>
+
+- Transactions associated with age 34 have the highest number of fraud transactions, followed by 52,32, 43, and 61.
+
+### Modelling
+
+- The dataset was highly imbalanced, so stratified sampling was used for training and testing data split. Categorical features such as gender, state, and category are encoded using OneHotEncoder. All the numerical features are standardized using StandardScaler. Credit card fraud detection is a supervised classification problem. Multiple classification algorithms, such as decision trees, random forest, XGBClassifier, and logistic regression, were tested for this project. XGBClassifier model was selected to identify fraudulent credit card transactions over other models because of its better performance metrics.
+
+A comparison of the performance metrics of the different models
+<p align="center">
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/comparison_of_the_performance_metrics.png" width="750" height="500"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/confusion_matrix.png" width="750" height="500"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/roc_curve.png" width="750" height="500"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/importances_features.png" width="750" height="500"/>
+</p>
+
+- XGBClassifier model identified that features grocery POS, gas transport, transaction amount, transaction hour, travel, grocery net, female gender, age, state VA, and entertainment are the top 10 feature importances.
