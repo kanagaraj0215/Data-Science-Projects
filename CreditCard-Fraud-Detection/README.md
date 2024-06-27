@@ -61,7 +61,7 @@ The dataset is extracted from the open-source website Kaggle. The dataset simula
 - The dataset was highly imbalanced, so stratified sampling was used for training and testing data split. Categorical features such as gender, state, and category are encoded using OneHotEncoder. All the numerical features are standardized using StandardScaler. Credit card fraud detection is a supervised classification problem. Multiple classification algorithms, such as decision trees, random forest, XGBClassifier, and logistic regression, were tested for this project. XGBClassifier model was selected to identify fraudulent credit card transactions over other models because of its better performance metrics.
 
 A comparison of the performance metrics of the different models
-<p align="center">
+<p align="left">
 <img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/comparison_of_the_performance_metrics.png" width="750" height="500"/>
 </p>
 
