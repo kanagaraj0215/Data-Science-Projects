@@ -62,7 +62,7 @@ The dataset is extracted from the open-source website Kaggle. The dataset simula
 
 A comparison of the performance metrics of the different models
 <p align="left">
-<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/comparison_of_the_performance_metrics.png" width="750" height="500"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/comparison_of_the_performance_metrics.png" width="900" height="400"/>
 </p>
 
 <p align="center">
