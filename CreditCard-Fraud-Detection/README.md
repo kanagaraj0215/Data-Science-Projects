@@ -65,10 +65,21 @@ A comparison of the performance metrics of the different models
 <img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/comparison_of_the_performance_metrics.png" width="1400" height="300"/>
 </p>
 
+#### XGBClassifier
+
+##### Confusion Matrix
+
 <p align="center">
 <img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/confusion_matrix.png" width="750" height="500"/>
+</p>
+
+##### ROC Curve
+
+<p align="center">
 <img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/roc_curve.png" width="750" height="500"/>
 </p>
+
+##### Feature Importance
 
 <p align="center">
 <img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/CreditCard-Fraud-Detection/images/importances_features.png" width="750" height="500"/>
