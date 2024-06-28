@@ -50,7 +50,7 @@ The dataset is sourced from the open-source website Kaggle. The dataset contains
 
 A comparison of the performance metrics of the different models
 <p align="center">
-<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/Airbnb-Pricing-Assistant/images/comparison_of_the_performance_metrics.png" width="750" height="500"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/Airbnb-Pricing-Assistant/images/comparison_of_the_performance_metrics.png" width="1400" height="300"/>
 </p>
 
 
