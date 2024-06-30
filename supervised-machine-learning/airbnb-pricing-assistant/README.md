@@ -20,25 +20,25 @@ The dataset is sourced from the open-source website Kaggle. The dataset contains
 **Exploratory Data Analysis (EDA):** <br />
 
 <p align="center">
-<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/Airbnb-Pricing-Assistant/images/Price_by_Room_Type.png" width="750" height="500"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/airbnb-pricing-assistant/images/Price_by_Room_Type.png" width="750" height="500"/>
 </p>
 
 - The above plot shows how the price is distributed across the room type. Most of the homes/apt are in the range of $10 to $2000, hotel rooms are in the range of $10 to $500, private rooms are in the range of $10 to $1500, and shared rooms are in the range of $10 to $500. We could see a $10000 price for the entire home/apt and private space. These numerical values would be an outlier.
 
 <p align="center">
-<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/Airbnb-Pricing-Assistant/images/Histogram_of_the_price.png" width="750" height="500"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/airbnb-pricing-assistant/images/Histogram_of_the_price.png" width="750" height="500"/>
 </p>
 
 - The above histogram shows how the price is distributed. It clearly shows that it is not normally distributed and skewed right. It says that the mean is greater than the median. From the above boxplot, we already know that there are a few outliers, and these outliers might be contributing to the skewness.
 
 <p align="center">
-<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/Airbnb-Pricing-Assistant/images/review_scores_vs_price.png" width="750" height="500"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/airbnb-pricing-assistant/images/review_scores_vs_price.png" width="750" height="500"/>
 </p>
 
 - The above scatter plot shows that the price increases with high review scores, implying a positive correlation between the review score and the price.
 
 <p align="center">
-<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/Airbnb-Pricing-Assistant/images/heatmap.png" width="750" height="500"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/airbnb-pricing-assistant/images/heatmap.png" width="750" height="500"/>
 </p>
 
 - The above heat map shows the correlation between price and other numerical features. A positive correlation exists between the field price and the fields id, latitude, longitude, minimum_nights, calculated_host_listings_count, availability_365, review_scores_rating,review_scores_accuracy and review_scores_location. A negative correlation exists between the field price and the field host_id, number_of_reviews, reviews_per_month, review_scores_checkin, review_scores_communication, and review_scores_value.
@@ -50,7 +50,7 @@ The dataset is sourced from the open-source website Kaggle. The dataset contains
 
 A comparison of the performance metrics of the different models
 <p align="center">
-<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/Airbnb-Pricing-Assistant/images/comparison_of_the_performance_metrics.png" width="1400" height="300"/>
+<img src="https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/airbnb-pricing-assistant/images/comparison_of_the_performance_metrics.png" width="1400" height="300"/>
 </p>
 
 
