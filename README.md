@@ -10,18 +10,19 @@
 </p>
 
 <a id = 'nb'></a>
-### Notebooks and descriptions
-| Notebook | Brief Description |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[airbnb-pricing-assistant](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/airbnb-pricing-assistant) | |
-|[creditcard-fraud-detection](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/creditcard-fraud-detection) | |
-|[housing-price-estimator](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/housing-price-estimator) | |
-|[als-patient-clustering](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/unsupervised-learning/als-patient-clustering) | |
-|[digit-recognizer](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/deep-learning/digit-recognizer) | |
-|[bank-customer-complaint-classifier](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/natural-language-processing/bank-customer-complaint-classifier) | |
-|[movie-recommender-system](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/natural-language-processing/movie-recommender-system) | |
-|[movie-review-sentiment-analysis](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/natural-language-processing/movie-review-sentiment-analysis) | |
-|[retail-forecast](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/deep-learning/retail-forecast) | |
+### Notebooks
+| Notebook |
+|--------------------------------------------------------------------------------------------------|
+|[airbnb-pricing-assistant](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/airbnb-pricing-assistant) |
+|[creditcard-fraud-detection](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/creditcard-fraud-detection) |
+|[housing-price-estimator](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/supervised-machine-learning/housing-price-estimator) |
+|[als-patient-clustering](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/unsupervised-learning/als-patient-clustering) |
+|[digit-recognizer](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/deep-learning/digit-recognizer) |
+|[bank-customer-complaint-classifier](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/natural-language-processing/bank-customer-complaint-classifier) |
+|[movie-recommender-system](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/natural-language-processing/movie-recommender-system) |
+|[movie-review-sentiment-analysis](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/natural-language-processing/movie-review-sentiment-analysis) |
+|[retail-forecast](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/deep-learning/retail-forecast) |
+|[email-defender](https://github.com/kanagaraj0215/Data-Science-Projects/blob/main/deep-learning/email-defender) |
 
 <a id = 'ci'></a>
 ## Contact Information
